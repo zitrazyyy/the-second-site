@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Nerko+One&family=PT+Sans&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=Rubik&family=Rubik+Microbe&family=Ubuntu&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #fff;
+}
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 84px;
+  background-color: #007765;
+}
+.cont-head {
+  display: flex;
+  height: 84px;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+.jumbotron {
+  background: url(https://media.discordapp.net/attachments/795661765319852064/1047925480642314261/image.png);
+  height: 403px;
+  display: block;
+  background-size: cover;
+}
+.name-pict {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  font-weight: 500;
+}
+.problem h1 {
+  margin-top: 48px;
+  margin-bottom: 16px;
+  color: #007765;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+}
+.text {
+  font-size: 32px;
+  text-align: justify;
+  display: block;
+  max-width: 1110px;
+  color: #000;
+  margin: auto;
+  margin-bottom: 88px;
+}
+.hero {
+  background: url(https://media.discordapp.net/attachments/795661765319852064/1047926906793766932/image_1.png);
+  background-size: cover;
+  height: 483px;
+}
+.text2-pict {
+  font-size: 48px;
+  font-style: italic;
+  max-width: 900px;
+  padding-top: 140px;
+  text-align: center;
+  margin: auto;
+}
+.text2 {
+  color: #000;
+}
+.ppc h1 {
+  color: #007765;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+.text2 {
+  font-size: 32px;
+  text-align: justify;
+  max-width: 1100px;
+  color: #000;
+  margin: auto;
+  margin-bottom: 88px;
+}
+.block {
+  display: flex;
+}
+
+.block span {
+  margin-left: 48px;
+}
+.theteam {
+  width: 100%;
+  background: #eee;
+}
+.theteam h1 {
+  padding-top: 70px;
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+}
+.line1 {
+  display: flex;
+  justify-content: space-around;
+}
+.line2 {
+  display: flex;
+  justify-content: space-around;
+}
+.theteam figcaption {
+  text-align: center;
+}
+.name {
+  font-size: 24px;
+  color: #007765;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.prof {
+  font-style: italic;
+  font-size: 18px;
+  color: #000;
+}
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 176px;
+  width: 100%;
+  background-color: #333;
+}
+.text3 {
+  font-size: 18px;
+  text-align: center;
+  height: 64px;
+  width: 540px;
+}
+@media (max-width: 910px) {
+  .block img {
+    width: 120px;
+    height: 120px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
